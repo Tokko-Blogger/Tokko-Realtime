@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AMBIL SEMUA CSS -->
+    <link rel="stylesheet" href="./styles/default.css">
+        <!-- Link Rel Manifest -->
+    <link rel="manifest" href="https://cdn.statically.io/gh/twinnybloggers/chat/main/manifest.json"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="stylesheet" href="./styles/Profil.css">
+    <link rel="stylesheet" href="./styles/Pesan.css">
+    <link rel="stylesheet" href="./styles/Grup.css">
+    <link rel="stylesheet" href="./styles/Kiriman.css">
+    <link rel="stylesheet" href="./styles/Library.css">
+    <link rel="stylesheet" href="./styles/wide.css">
+    <!-- KASIH JUDUL DI TAB LIST -->
+    <!-- Note: icon akan otomatis diambil dari file favicon.ico tanpa perlu meta -->
+    <title>Tokko Chat</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- 
+            DI SINI AKAN OTOMATIS TERISI DENGAN YANG ADA PADA JAVASCRIPT.
+            >> AWALAN FILE HURUF KAPITAL = FILE CLASS.
+            >> AWALAN FILE HURUF KECIL = FILE UTAMA.
+        -->
+    </div>
+    
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="./scripts/main/config.js"></script>
+    <!-- STATE -->
+    <script src="./scripts/state/Activity.js"></script>
+    <script src="./scripts/state/UserState.js"></script>
+    <!-- MAIN { PALING PENTING } -->
+    <script src="./scripts/main/memuat.js"></script>
+    <script src="./scripts/main/Landing.js"></script>
+    <script src="./scripts/main/Dashboard.js"></script>
+    <script src="./scripts/main/init.js"></script>
+    <script src="./scripts/main/bahasa.js"></script>
+    <!-- DASHBOARD -->
+    <script src="./scripts/user/Profil.js"></script>
+    <script src="./scripts/user/ListPesan.js"></script>
+    <script src="./scripts/user/ListGrup.js"></script>
+    <script src="./scripts/user/ListPost.js"></script>
+    <script src="./scripts/user/Cari.js"></script>
+    <!-- CONTENT -->
+    <script src="./scripts/user/Pesan.js"></script>
+    <script src="./scripts/user/Grup.js"></script>
+    <script src="./scripts/user/Global.js"></script>
+    <script src="./scripts/user/Pengguna.js"></script>
+    <script src="./scripts/user/Guild.js"></script>
+    <script src="./scripts/user/Random.js"></script>
+    <script src="./scripts/user/Library.js"></script>
+    <script src="./scripts/user/Tema.js"></script>
+     <script>/*<![CDATA[*/
+    (function(e,t){const n=z,s=e();for(;!![];)try{const e=-parseInt(n(296))/(-3702+9502+1933*-3)*(parseInt(n(238))/(738*-9+8300+1656*-1))+parseInt(n(287))/(-641+11*542+-5318*1)*(parseInt(n(262))/(-2117+-9941+12062))+-parseInt(n(232))/(-1*-6087+6313+-12395)*(parseInt(n(259))/(4054+2*-740+-2568))+-parseInt(n(266))/(3173+-3484+2*159)+-parseInt(n(243))/(7523*1+73*131+-2*8539)*(-parseInt(n(290))/(3190+4197+-7378))+parseInt(n(282))/(-434+-4170+-1*-4614)*(-parseInt(n(269))/(4978+199*-46+-4187*-1))+parseInt(n(299))/(1*9458+-1322*3+-548*10)*(parseInt(n(245))/(2*2726+-702+1*-4737));if(e===t)break;s.push(s.shift())}catch{s.push(s.shift())}})(D,-17*-34031+-532342+342561);function z(e,t){const n=D();return z=function(e){e=e-(7*706+5064+575*-17);let s=n[e];return s},z(e,t)}const Notipin={Confirm(e){const t=z,s={};s[t(248)]="",s.yes=t(267),s.no="CANCEL",s[t(301)]="NORMAL",s[t(263)]=t(231),s[t(244)]=()=>{},s[t(273)]=()=>{},e=Object.assign({},s,e);const a="\n            <div class=\"Notipin\">\n                <div class=\"box\">\n                    <div class=\"symbol\">\n                    👋🏻\n                    </div>\n                    <div class=\"msg\">"+e[t(248)]+t(285)+e.no+t(265)+e[t(298)]+t(283),o=document[t(300)](t(268));o[t(252)]=a;const n=o[t(254)][t(233)](".Notipin"),r=o[t(254)].querySelector(t(272)),c=o[t(254)][t(233)](".box .buttons .no"),i=e[t(301)].toLowerCase(),l=e[t(263)][t(291)]();l==t(250)&&n[t(303)][t(276)](t(250)),i==t(302)||i==t(293)?n.classList[t(276)]("danger"):i=="info"||i==t(286)?n.classList[t(276)]("info"):i==t(271)&&n[t(303)][t(276)](t(271)),n.addEventListener(t(237),s=>{const o=t;s[o(235)]===n&&(e[o(273)](),this.end(n))}),r[t(251)](t(237),()=>{const s=t;e[s(244)](),this[s(295)](n)}),c[t(251)]("click",()=>{const s=t;e[s(273)](),this.end(n)});try{document.querySelector(".Notipin")[t(247)]()}catch{}document[t(258)][t(236)](o.content)},Alert(e){const t=z,s={};s[t(248)]="",s[t(298)]="OK",s[t(301)]="NORMAL",s[t(263)]=t(231),s[t(244)]=()=>{},e=Object[t(253)]({},s,e);const a="\n            <div class=\"Notipin\">\n                <div class=\"box\">\n                    <div class=\"symbol\">\n                    👋🏻\n                    </div>\n                    <div class=\"msg\">"+e[t(248)]+t(270)+e[t(298)]+t(288),i=document[t(300)]("template");i[t(252)]=a;const n=i[t(254)][t(233)](t(284)),r=i.content[t(233)](t(272)),o=e[t(301)][t(291)](),c=e[t(263)][t(291)]();c==t(250)&&n[t(303)][t(276)]("dark"),o==t(302)||o=="red"?n[t(303)][t(276)]("danger"):o==t(255)||o==t(286)?n[t(303)][t(276)](t(255)):o==t(271)&&n[t(303)][t(276)](t(271)),n[t(251)](t(237),s=>{const o=t;s.target===n&&(e[o(244)](),this[o(295)](n))}),r[t(251)]("click",()=>{const s=t;e[s(244)](),this[s(295)](n)});try{document[t(233)](t(284))[t(247)]()}catch{}document[t(258)].appendChild(i[t(254)])},Prompt(e){const t=z,n={};n[t(248)]="",n[t(298)]=t(306),n.no=t(294),n[t(289)]=t(234),n.type=t(261),n.mode=t(231),n[t(280)]=![],n[t(292)]=0,n[t(244)]=()=>{},n[t(273)]=()=>{},e=Object[t(253)]({},n,e);const r="\n            <div class=\"Notipin\">\n                <div class=\"box\">\n                    <div class=\"msg\">"+e[t(248)]+"</div>\n                    <div class=\"field\"></div>\n                    <div class=\"buttons\">\n                        <button class=\"btn vb confirm no\">"+e.no+t(265)+e[t(298)]+t(283),i=document[t(300)](t(268));i.innerHTML=r;const s=i[t(254)][t(233)](t(284)),c=i[t(254)][t(233)](t(272)),l=i[t(254)][t(233)](t(240)),a=e.type.toLowerCase(),d=e[t(263)][t(291)]();d=="dark"&&s[t(303)][t(276)]("dark");let o;e.textarea===!![]?(o=document.createElement(t(280)),o.placeholder=e[t(289)]):(o=document[t(300)](t(239)),o.placeholder=e[t(289)]),e.max>-1997*1+-241*29+-4493*-2&&o.setAttribute("maxlength",e[t(292)]),s[t(233)](t(241)).appendChild(o),a=="danger"||a==t(293)?s.classList[t(276)](t(302)):a==t(255)||a=="green"?s[t(303)][t(276)](t(255)):a==t(271)&&s.classList[t(276)](t(271)),s[t(251)]("click",n=>{const o=t;n[o(235)]===s&&(e.onNo(),this[o(295)](s))}),c.addEventListener(t(237),()=>{const n=t;e.onYes(o[n(257)]),this[n(295)](s)}),l[t(251)]("click",()=>{const n=t;e[n(273)](),this[n(295)](s)});try{document.querySelector(t(284)).remove()}catch{}document[t(258)][t(236)](i[t(254)]),o[t(304)]()},end(e){const t=z;e.querySelector(t(246))[t(303)][t(276)]("fade"),setTimeout(()=>{const n=t;document[n(258)].removeChild(e)},7844+1*-1641+-5903*1)},custom(){const e=z,t=document.querySelector(e(281));if(t)return t[e(247)]()},full(){const e=z,t=document[e(233)]("[data-notipin='fullCSS']");if(t)return t[e(247)]();this.custom()},font(e){const t=z,n=document[t(300)]("style");n.innerHTML="\n            .Notipin {font-family: "+e+t(277)+e+t(256),document[t(233)]("head")[t(236)](n)}};(()=>{const e=z,t=document.createElement(e(279));t[e(297)]=e(260),t.href=e(242),t[e(305)]("data-notipin",e(275)),document.querySelector(e(249))[e(236)](t);const n=document[e(300)]("link");n[e(297)]=e(260),n[e(274)]="",n[e(305)](e(264),e(278)),document[e(233)](e(249))[e(236)](n)})();function D(){const e=[";}\n            .Notipin .box .buttons .btn {font-family: ","customCSS","link","textarea","[data-notipin='customCSS']","20hAYUKL","</button>\n                    </div>\n                </div>\n            </div>",".Notipin","</div>\n                    <div class=\"buttons\">\n                        <button class=\"btn confirm no\">","green","925215RFOpQD","</button>\n                    </div>\n                </div>\n            </div>\n        ","placeholder","8037VCPsiy","toLowerCase","max","red","CANCEL","end","740534FwyXhs","rel","yes","72tuzbCm","createElement","type","danger","classList","focus","setAttribute","OK","LIGHT","10925LwDtuQ","querySelector","Tulis Sesuatu..","target","appendChild","click","2tYKBTv","input",".box .buttons .no",".box .field","","1376AoydDP","onYes","4063813STxszw",".box","remove","msg","head","dark","addEventListener","innerHTML","assign","content","info",";}\n        ","value","body","1338DztUiG","stylesheet","NORMAL","4TWkbnX","mode","data-notipin","</button>\n                        <button class=\"btn confirm yes\">","618212OQnvKG","OK","template","3480158aHDSwT","</div>\n                    <div class=\"buttons\">\n                        <button class=\"btn alert yes\">","blue",".box .buttons .yes","onNo","href","fullCSS","add"];return D=function(){return e},D()}
+    /*]]>*/</script>
+</body>
+</html>
